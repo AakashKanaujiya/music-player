@@ -1,0 +1,124 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+    color: #b3b3b3;
+}
+
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 11px;
+}
+
+.musicImage{
+    padding-top: 2px;
+    width: 25;
+    height: 25px;
+    
+}
+
+.songbutton1{
+    width: 23px;
+    height: 23px;
+}
+
+.home{
+    height: 110px;
+}
+
+.songtime{
+    width: 120px;
+    display: flex;
+    justify-content: end;
+}
+
+.timevol{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    /* padding-left: 136px; */
+
+
+    /* align-items: center; */
+}
+.card h2{
+    font-size: 20px;
+}
+
+.res{
+    margin-left: -112px;
+}
+.volume{
+    display: flex;
+    gap: 10px;
+}
+
+.volume img{
+    cursor: pointer;
+}
+
+.range input{
+    cursor: pointer;
+}
+
+#volumebar{
+    width: 70px;
+    height: 3px;
+}
+
+
+
+/* .volume{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .volume{
+    width: 50px;
+    height: 5px;
+} */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333; 
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+    background-color: #222;
+}
+
+
+.container{
+scrollbar-color :#333 #222; 
+}
